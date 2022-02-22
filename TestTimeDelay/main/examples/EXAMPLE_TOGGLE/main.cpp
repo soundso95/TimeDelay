@@ -72,8 +72,8 @@ extern "C" void app_main(void)
         TOGGLE1.RST = I3;
         TOGGLE1(I1);
 
-        TOGGLE1.RST = I3;
-        TOGGLE1(I2);
+        TOGGLE2.RST = I3;
+        TOGGLE2(I2);
 
 
         // Ausgaenge setzen
